@@ -19,7 +19,7 @@ import (
 	ibctransfertypes "github.com/cosmos/ibc-go/v2/modules/apps/transfer/types"
 	ibctypes "github.com/cosmos/ibc-go/v2/modules/core/types"
 	nfttypes "github.com/crypto-org-chain/chain-main/v3/x/nft/types"
-	gravitytypes "github.com/peggyjv/gravity-bridge/module/v2/x/gravity/types"
+	gravitytypes "github.com/peggyjv/gravity-bridge/module/x/gravity/types"
 )
 
 func RegisterDefaultInterfaces(interfaceRegistry types.InterfaceRegistry) {
